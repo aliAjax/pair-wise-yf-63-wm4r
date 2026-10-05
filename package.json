@@ -24,7 +24,12 @@
     "zod": "^3.25.76"
   },
   "devDependencies": {
+    "@rollup/wasm-node": "^4.63.5",
+    "@types/node": "^20.19.43",
     "typescript": "^5.9.3",
     "vue-tsc": "^3.1.0"
+  },
+  "overrides": {
+    "rollup": "npm:@rollup/wasm-node@^4.63.5"
   }
 }
